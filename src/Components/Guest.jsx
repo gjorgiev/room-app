@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Res() {
+function Guest() {
   return (
     <div>
       reservation
@@ -8,4 +8,4 @@ function Res() {
   )
 }
 
-export default Res
+export default Guest
