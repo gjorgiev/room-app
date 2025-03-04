@@ -1,9 +1,12 @@
 import './App.css'
+import RoomList from './Components/RoomList'
 
 function App() {
 
   return (
-    <div>Room-App</div>
+    <div>
+      <RoomList />
+    </div>
   )
 }
 

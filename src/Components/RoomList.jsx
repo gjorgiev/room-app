@@ -1,10 +1,11 @@
 import React from 'react'
+import Room from './Room'
 
 function RoomList() {
   
   return (
     <div>
-      room list
+      <Room />
     </div>
   )
 }
