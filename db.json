@@ -1,0 +1,16 @@
+{
+  "rooms": [
+    {
+      "id": "1",
+      "roomType": "Single Room"
+    },
+    {
+      "id": "2",
+      "roomType": "Double Room"
+    },
+    {
+      "id": "3",
+      "roomType": "Twin Room"
+    }
+  ]
+}

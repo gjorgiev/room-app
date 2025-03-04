@@ -1,12 +1,16 @@
 import React from 'react'
 import Room from './Room'
 
-function RoomList() {
+function RoomList({ rooms }) {
+
+  const renderedRooms = rooms.map((room) => {
+    return <li key={room.id}><Room room={room}/></li>
+  })
   
   return (
-    <div>
-      <Room />
-    </div>
+    <ul>
+      {renderedRooms}
+    </ul>
   )
 }
 
