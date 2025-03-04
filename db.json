@@ -2,15 +2,38 @@
   "rooms": [
     {
       "id": "1",
+      "roomNumber": "1",
       "roomType": "Single Room"
     },
     {
       "id": "2",
+      "roomNumber": "2",
       "roomType": "Double Room"
     },
     {
       "id": "3",
+      "roomNumber": "3",
       "roomType": "Twin Room"
+    },
+    {
+      "roomNumber": "4",
+      "roomType": "double",
+      "id": "NibNKVC"
+    },
+    {
+      "roomNumber": "5",
+      "roomType": "single",
+      "id": "MdvW5dz"
+    },
+    {
+      "roomNumber": "23",
+      "roomType": "double",
+      "id": "wNoJIb2"
+    },
+    {
+      "roomNumber": "3",
+      "roomType": "double",
+      "id": "-7jQvHn"
     }
   ]
 }

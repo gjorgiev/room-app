@@ -1,13 +1,15 @@
 import React from 'react'
 import '../App.css'
 
-function Room() {
+function Room({ room }) {
+
+  const { roomNumber } = room;
  
   return (
     <div className='text-4xl font-bold'>
       <ul>
         <li className='border p-4 inline-block'>
-          room id
+          { roomNumber }
         </li>
         <li className='border p-4 inline-block'>
           guest name1
